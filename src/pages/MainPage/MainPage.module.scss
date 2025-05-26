@@ -1,8 +1,8 @@
 .mainPageContainer{
     display: flex;
     flex-direction: column;
-
+    padding: 16px;
     width: 100%;
     max-height: calc(100dvh - 112px);
-     flex-grow: 1;
+    flex-grow: 1;
 }
