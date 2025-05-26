@@ -5,14 +5,22 @@
     height: 100vh;
     padding: 5px;
     background-color: #181818;
-    background: url('../../assets/rocketBack.jpg');
+    background: url('../../assets/back.jpg');
     background-size: cover;
-    background-position: -320px;
+    background-position: center;
+    background-repeat: no-repeat;
 
     >h1{
         text-align: center;
-        margin-top: 30px;
+        margin-top: 20px;
         color: #fff;
+        }
+
+    .titleAuth{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .welcomeContainer{

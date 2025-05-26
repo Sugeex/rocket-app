@@ -1,0 +1,8 @@
+.mainPageContainer{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-height: calc(100dvh - 112px);
+     flex-grow: 1;
+}
